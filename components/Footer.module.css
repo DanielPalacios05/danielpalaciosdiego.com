@@ -1,0 +1,17 @@
+.footer {
+    padding: 1.5rem;
+    background-color: var(--background-end-rgb);
+    text-align: center;
+    margin-top: auto;
+    border-top: 1px solid var(--card-border-rgb);
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.ostinato {
+    color: #808080;
+    text-decoration: underline;
+    text-decoration-style: var(--main-underline-style);
+    text-decoration-thickness: var(--main-underline-thickness);
+    text-decoration-color: #808080;
+}

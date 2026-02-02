@@ -1,0 +1,31 @@
+{
+    "HomePage": {
+        "title": "Bienvenido a Daniel Palacios",
+        "description": "Portafolio y Sitio Personal"
+    },
+    "Navigation": {
+        "home": "Inicio",
+        "work": "Proyectos",
+        "about": "Sobre Mí",
+        "contact": "Contacto"
+    },
+    "Hero": {
+        "name": "Daniel Ricardo Palacios Diego",
+        "role": "Ingeniero de Software Full-Stack y Diseñador UX/UI",
+        "quote": "Mi propósito es transformar el mundo a través de la educación y la tecnología.",
+        "bio": "Soy un ingeniero full-stack bilingüe con mentalidad de producto que envía sistemas rápidos y escalables, desde UX hasta producción. He entregado impacto medible (tiempos de carga 50% más rápidos, reducción de entrega de 6 a 3 meses) construyendo a través de frontend, backend y flujos de trabajo de despliegue modernos. Soy conocido por mi responsabilidad, comunicación clara, liderazgo y resolución de problemas en dominios complejos. \n\n Estoy profundizando mi oficio de ingeniería de software y desarrollo web mientras persigo intereses impulsados por la investigación en Interacción Humano-Computadora (HCI), RA/RV e IA aplicada.",
+        "downloadCv": "Descargar CV",
+        "workTogether": "Trabajemos juntos"
+    },
+    "Footer": {
+        "rights": "Todos los derechos reservados"
+    },
+    "TechStack": {
+        "title": "Tech Stack",
+        "design": "Diseño",
+        "web-ui": "Interfaces Web",
+        "backend": "Backend",
+        "data": "Datos",
+        "infrastrucuture_tools": "Infraestructura y Herramientas"
+    }
+}

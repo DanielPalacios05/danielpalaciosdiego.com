@@ -1,0 +1,31 @@
+{
+    "HomePage": {
+        "title": "Welcome to Daniel Palacios",
+        "description": "Portafolio and Personal Site"
+    },
+    "Navigation": {
+        "home": "Home",
+        "work": "Work",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "name": "Daniel Ricardo Palacios Diego",
+        "role": "Full-Stack Software Engineer and UX/UI Designer",
+        "quote": "My purpose is to transform the world through education and technology.",
+        "bio": "I’m a bilingual product-minded full-stack engineer who ships fast, scalable systems—from UX to production. I’ve delivered measurable impact (50% faster load times, cut delivery from 6 to 3 months) by building across frontend, backend, and modern deployment workflows. I’m known for ownership, clear communication, leadership and problem solving in complex domains. \n\n I’m deepening my software engineering and web development craft while pursuing research-driven interests in Human–Computer Interaction (HCI), AR/VR, and applied AI.",
+        "downloadCv": "Download CV",
+        "workTogether": "Let's work together"
+    },
+    "Footer": {
+        "rights": "All rights reserved"
+    },
+    "TechStack": {
+        "title": "Tech Stack",
+        "design": "Design",
+        "web-ui": "Web UI",
+        "backend": "Backend",
+        "data": "Data",
+        "infrastrucuture_tools": "Infrastructure & Tools"
+    }
+}

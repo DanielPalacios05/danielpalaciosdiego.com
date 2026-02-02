@@ -1,0 +1,17 @@
+.logo {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    color: var(--font-body-color);
+    text-decoration: none;
+    border: 1px solid var(--font-body-color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.logo:hover {
+    background-color: var(--font-body-color);
+    color: white;
+    transition: all 0.3s ease;
+}
