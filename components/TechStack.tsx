@@ -10,11 +10,15 @@ type TechCategory = {
         name: string;
         icon: string;
     }[];
+};
+
+interface TechCategoryCardProps extends TechCategory {
+    className?: string;
 }
 
-function TechCategoryCard({ name, items }: TechCategory) {
+function TechCategoryCard({ name, items, className }: TechCategoryCardProps) {
     return (
-        <div className={styles.category}>
+        <div className={clsx(styles.category, className)}>
             <h3>{name}</h3>
             <div className={styles.categoryItems}>
                 {items.map((item) => (
@@ -24,7 +28,6 @@ function TechCategoryCard({ name, items }: TechCategory) {
                     </div>
                 ))}
             </div>
-
         </div>
     );
 }
@@ -88,35 +91,18 @@ export default function TechStack() {
 
             <div className={styles.technologies}>
 
-                <div className={styles.column}>
 
-                    <div>
-                        <TechCategoryCard name={t('design')} items={categories[0].items} />
-                    </div>
-                    <div>
-                        <TechCategoryCard name={t('web-ui')} items={categories[1].items} />
-                    </div>
-                </div>
+                <TechCategoryCard className={styles.infraTools} name={t('infrastrucuture_tools')} items={categories[2].items} />
 
+                <TechCategoryCard name={t('design')} items={categories[0].items} />
 
+                <TechCategoryCard name={t('data')} items={categories[3].items} />
 
-                <div className={clsx(styles.column, styles.infraTools)}>
+                <TechCategoryCard name={t('web-ui')} items={categories[1].items} />
 
-                    <div>
-                        <TechCategoryCard name={t('infrastrucuture_tools')} items={categories[2].items} />
-                    </div>
-
-                </div>
+                <TechCategoryCard name={t('backend')} items={categories[4].items} />
 
 
-                <div className={styles.column}>
-                    <div>
-                        <TechCategoryCard name={t('data')} items={categories[3].items} />
-                    </div>
-                    <div>
-                        <TechCategoryCard name={t('backend')} items={categories[4].items} />
-                    </div>
-                </div>
             </div>
         </section>
     );
