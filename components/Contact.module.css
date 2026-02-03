@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.message {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.linkItem {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+
+@media screen and (min-width:40rem){
+    .linkItem {
+        flex-direction: row;
+    }
+}

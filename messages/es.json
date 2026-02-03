@@ -5,8 +5,7 @@
     },
     "Navigation": {
         "home": "Inicio",
-        "work": "Proyectos",
-        "about": "Sobre Mí",
+        "work": "Trabajo",
         "contact": "Contacto"
     },
     "Hero": {
@@ -27,5 +26,111 @@
         "backend": "Backend",
         "data": "Datos",
         "infrastrucuture_tools": "Infraestructura y Herramientas"
+    },
+    "Education": {
+        "title": "Educación",
+        "eafit": {
+            "title": "Pregrado en Ingeniería de Sistemas con Énfasis en Desarrollo de Software",
+            "scholarship": "Becario Generación E por resultados sobresalientes en las pruebas de estado nacionales",
+            "optika": "Proyecto ganador del premio Optika",
+            "representative": "Representante estudiantil de Ingeniería de Sistemas",
+            "afroeafit": "Fundador del colectivo afro de EAFIT, AFROEAFIT",
+            "gpa": "Promedio 4.4/5"
+        },
+        "certs": {
+            "mckinsey": {
+                "title": "McKinsey & Company",
+                "description": "Comunicación de impacto, Resolución estructurada de problemas, Adaptabilidad y resiliencia y más."
+            },
+            "alberta": {
+                "title": "Universidad de Alberta",
+                "description": "Patrones de diseño, SOA, Diagramas arquitectónicos y Compensaciones"
+            },
+            "learnquest": {
+                "title": "LearnQuest",
+                "description": "Desarrollo Backend con Spring Boot"
+            }
+        },
+        "readings": {
+            "content": "La mayor parte de mi aprendizaje se realiza leyendo, lo que me permite entablar una relación más profunda con la información que intento comprender. Para libros técnicos suelo recurrir a O’reilly Media.",
+            "cta": "Aquí hay una lista de libros que he estudiado y a los que constantemente regreso.",
+            "imageCaption": "Para mi aprendizaje continuo elijo un libro técnico y uno no técnico para estudiar, a veces elijo un paper/artículo de interés para leer."
+        }
+    },
+    "Work": {
+        "job_experience": {
+            "title": "Experiencia Laboral",
+            "experiences": {
+                "eafit": {
+                    "title": "Universidad EAFIT",
+                    "description": "Ingeniero de Software",
+                    "activities": [
+                        "Asesoré a mas de 200+ estudiantes de desarrollo de software"
+                    ]
+                }
+            }
+        },
+        "title": "Trabajo",
+        "featured_projects": {
+            "title": "Proyectos Destacados",
+            "description": "Algunas cosas interesantes en las que he trabajado a lo largo de los años.",
+            "video_cta": "Ver Video",
+            "code_cta": "Ver Código",
+            "projects": [
+                {
+                    "title": "Optika",
+                    "description": "Optika es un proyecto creado para ayudar a los estudiantes de la Universidad EAFIT a encontrar los mejores cursos para tomar basándose en sus intereses y metas profesionales.",
+                    "award": "Ganador del premio a la mejor solución en el Hackathon EAFIT 2024",
+                    "features": [
+                        "Transmisión de video en vivo desde la cámara del dispositivo IoT",
+                        "Detección facial y reconocimiento de personas conocidas y desconocidas",
+                        "Historial de detección",
+                        "Control de puerta usando Arduino"
+                    ],
+                    "video_cta": "Ver Video"
+                },
+                {
+                    "title": "KarelDB",
+                    "description": "Sistema de gestión de bases de datos en memoria multihilo con mecanismo de persistencia AOF (Append-only file).",
+                    "features": [
+                        "Implementación de servidor TCP usando Sockets e Hilos",
+                        "6 tipos de datos, definición de esquemas JSON y soporte CRUD",
+                        "Cliente CLI en Java para gestionar una instancia de KarelDB"
+                    ],
+                    "video_cta": "Ver Código"
+                },
+                {
+                    "title": "Carpeta Ciudadana",
+                    "description": "Sistema de Carpeta Ciudadana Digital para la gestión segura de archivos personales.",
+                    "features": [
+                        "Microservicios FastAPI orquestados usando Google Kubernetes Engine y Kong API Gateway",
+                        "Bases de datos MongoDB para cada microservicio y Cloud Storage para almacenamiento de archivos",
+                        "Almacenamiento basado en la nube para subir, gestionar y descargar archivos personales",
+                        "Transferencia de documentos y solicitudes entre ciudadanos usando el sistema."
+                    ],
+                    "video_cta": "Ver Código"
+                }
+            ],
+            "github_cta": "Más proyectos en Github"
+        },
+        "client_solutions": {
+            "title": "Soluciones Tecnológicas para Clientes",
+            "description": "Resuelvo problemas de negocio de tu empresa con tecnología:",
+            "offerings": {
+                "lol": "lol",
+                "website": "<b>Sitios web de alta conversión que convierten visitantes en clientes</b> Diseño y construyo experiencias digitales que capturan leads e impulsan ventas—combinando una experiencia de usuario fluida, optimización para motores de búsqueda (SEO) e integración estratégica con tu embudo de marketing para maximizar el potencial de cada visitante.",
+                "software": "<b>Soluciones de software personalizadas para habilitar tu transformación digital.</b> Analizo tus procesos actuales, estructura y capacidades de TI para desarrollar herramientas que eliminen ineficiencias, automaticen lo que te ralentiza y te preparen para el crecimiento."
+            },
+            "projects": [
+                {
+                    "description": "<p>Inspirado en los colores vibrantes de la marca y sus chivas, diseñé y desarrollé el sitio web de TuryChivas para mostrar su oferta y agilizar la resolución de consultas y reservas de clientes.</p> <ul><li>Optimización SEO</li><li>Panel de análisis</li><li>Sistema de gestión de contenidos</li></ul>"
+                }
+            ]
+        }
+    },
+    "contact": {
+        "title": "Pongámonos en contacto",
+        "subtitle": "Actualmente disponible para roles de ingeniería de software o relacionados",
+        "message": "Construyamos juntos."
     }
 }

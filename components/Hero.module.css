@@ -157,7 +157,6 @@
 .socialIcon {
     color: #000;
     transition: color 0.2s;
-    width: 45px;
 }
 
 .socialIcon:hover {

@@ -87,7 +87,7 @@ export default function TechStack() {
 
     return (
         <section className={clsx(styles.section, 'container')}>
-            <h2 className={styles.title}>{t('title')}</h2>
+            <h1 className={styles.title}>{t('title')}</h1>
 
             <div className={styles.technologies}>
 

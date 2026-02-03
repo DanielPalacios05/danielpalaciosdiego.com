@@ -27,5 +27,127 @@
         "backend": "Backend",
         "data": "Data",
         "infrastrucuture_tools": "Infrastructure & Tools"
+    },
+    "Education": {
+        "title": "Education",
+        "eafit": {
+            "title": "Computer Science major with Minor in Software Development",
+            "scholarship": "Awardee of Generacion E Scholarhsip for outstanding results in nation wide standardized exam",
+            "optika": "Award winning project Optika",
+            "representative": "Computer science student representative",
+            "afroeafit": "Founder of EAFIT Black collective AFROEAFIT}",
+            "gpa": "4.4/5 GPA"
+        },
+        "certs": {
+            "mckinsey": {
+                "title": "McKinsey & Company",
+                "description": "Communication for impact, Structured problem solving, Adaptability and resilience and more."
+            },
+            "alberta": {
+                "title": "University of Alberta",
+                "description": "Design Patterns, SOA, Architectural Diagrams and Trade-offs"
+            },
+            "learnquest": {
+                "title": "LearnQuest",
+                "description": "Backend Development With Spring Boot"
+            }
+        },
+        "readings": {
+            "content": "Most of my learning is done by reading, it allows me to engage in a deeper relationship with the information in trying to grasp. For technical books I usually reach for O’reilly Media.",
+            "cta": "Here there is a list of books I’ve studied and constantly find myself going back to.",
+            "imageCaption": "For my lifelong learning I pick one technical book an a non technical book to study, sometimes I will pick a paper/article of interest to read."
+        }
+    },
+    "Work": {
+        "job_experience": {
+            "title": "Job Experience",
+            "experiences": {
+                "eafit": {
+                    "title": "EAFIT",
+                    "role": "Capstone 1 Teaching Asisstant",
+                    "activities": [
+                        "Mentored 200+ students on full stack development"
+                    ]
+                },
+                "cadena": {
+                    "title": "Cadena",
+                    "role": "Tech Intern",
+                    "activities": [
+                        "Developed a no code tool for building HTML templates with variables inside and a no code chart builder using React, Redux and .NET, significantly reducing HTML templates and charts development time.",
+                        "Optimized backend and frontend API calls, improving template loading times by 50%.",
+                        "Reduced project duration from 6 to 3 months"
+                    ]
+                },
+                "cocomasur": {
+                    "title": "Cocomasur",
+                    "role": "Software Engineer",
+                    "activities": [
+                        "Led the redesign and development of strategic sections of the website (MCAC, Formados, Chocó–Darién Corridor), applying requirements gathering, Figma prototyping, and frontend development with HTML, CSS, and JavaScript.",
+                        "Fixed 40 bugs and updated the content of the website cocomasur.org",
+                        "Implemented maintenance processes, daily monitoring, periodic backups, and basic cybersecurity practices to ensure the stability of the digital ecosystem.",
+                          "Coordinated and delivered Excel training sessions, designing content, assessments, and learning follow-up for the team."
+                    ]
+                }
+            }
+        },
+        "title": "Work",
+        "featured_projects": {
+            "title": "Featured Projects",
+            "description": "Some cool stuff I’ve worked on throughout the years.",
+            "video_cta": "Watch Video",
+            "code_cta": "View Code",
+            "projects": [
+                {
+                    "title": "Optika",
+                    "description": " IoT + AI home security system based on real time facial recognition.",
+                    "award": "Best solution award winner at EAFIT Hackathon 2024",
+                    "features": [
+                        "Live video streaming from the IoT Device Camera ",
+                        "Facial detection and recognition of known and unknown people",
+                        "Detection history",
+                        "Door control using Arduino"
+                    ]
+                },
+                {
+                    "title": "KarelDB",
+                    "description": "Multithreaded in-memory database management system with AOF (Append-only file) persistence mechanism.",
+                    "features": [
+                        "TCP Server implementation using Sockets and Threads",
+                        "6 data types, JSON Schema definition and CRUD support",
+                        "Java CLI client for managing a KarelDB instance"
+                    ]
+                },
+                {
+                    "title": "Carpeta Ciudadana",
+                    "description": "Digital Citizen Folder System for secure personal files management.",
+                    "features": [
+                        "FastAPI Microservices orchestrated using Google Kubernetes Engine and Kong API Gateway",
+                        "MongoDB Databases for each microservice and Cloud Storage for file storage",
+                        "Cloud-based storage for uploading, managing, and downloading personal files",
+                        "Document transfer and requests between citizens using the system."
+                    ]
+                }
+            ],
+            "github_cta": "More projects on Github"
+        },
+        "client_solutions": {
+            "title": "Technological Solutions for Clients",
+            "description": "I solve business problems of your company with technology:",
+            "offerings": {
+                "lol": "lol",
+                "website": "<b>High-converting websites that turn visitors into customers</b> I design and build digital experiences that capture leads and drive sales—combining seamless user experience, search engine optimization (SEO), and strategic integration with your marketing funnel to maximize every visitor's potential.",
+                "software": "<b>Custom software solutions to enable your digital transformation.</b>  I analyze your current processes, structure, and IT capabilities to develop tools that eliminate inefficiencies and automate what's slowing you down and set yourself up  for growth."
+            },
+            "projects": [
+                {
+                    "description": "<p>Inspired by the vibrant colors of the brand and their chivas I designed and developed TuryChivas website to showcase their offering and streamiline customer inquiry resolution and booking.</p> <ul><li>SEO Optimization</li><li>Analytics dashboard</li><li>Content management system</li></ul>"
+                }
+            ]
+        }
+    },
+    "contact": {
+        "title": "Let’s get in touch",
+        "subtitle": "Currently open for software engineering roles or related",
+        "message": "Let’s build together."
     }
 }

@@ -17,22 +17,55 @@ xl	80rem (1280px)	@media (width >= 80rem) { ... }
 
   --main-underline-color: #808080;
   --main-decoration-style: dotted;
-  --main-decoration-thickness: 1em;
-  --main-underline-thickness: 1px;
+  --main-decoration-thickness: 2.5px;
+  --main-underline-thickness: 2.5px;
   --main-underline-style: dotted;
-    font-size: 1.2em;
+    font-size: clamp(0.8rem, 4vw, 1.2em);
     color: var(--font-body-color);
+}
+
+a{
+    color: var(--font-body-color);
+}
+
+ul{
+  padding-left: 1rem;
+}
+
+a:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
 }
 
   .container{
   max-width: var(--max-width);
-  padding: 0 1.5rem;
+  padding: 0 1.2rem;
+  margin: 0 auto;
   }
+
 
 @media screen and (min-width: 80rem) {
   .container{
     padding: 0;
   }
+}
+
+
+
+
+h1{
+  font-family: var(--font-title);
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 25px auto;
+  text-align: center;
+}
+
+h2{
+  font-family: var(--font-title);
+  font-size: 2em;
+  font-weight: bold;
+  margin: 15px 0;
 }
 
 
@@ -56,3 +89,4 @@ body {
   background-color: var(--background-color);  
   font-family: var(--font-body);
 }
+
