@@ -12,6 +12,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 
+
+
 const geistSans = Geist({
     variable: "--font-geist-sans",
     subsets: ["latin"],
@@ -93,6 +95,12 @@ export default async function LocaleLayout({
 
     return (
         <html lang={locale}>
+            <head>
+                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+                <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+                <link rel="manifest" href="/site.webmanifest" />
+            </head>
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
                 <NextIntlClientProvider>
                     <Header />
