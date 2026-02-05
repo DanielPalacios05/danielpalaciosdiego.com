@@ -25,7 +25,7 @@ export default function Work() {
 
     return (
         <>
-            <h1 className="">{t('title')}</h1>
+            <h1 id="work" className="">{t('title')}</h1>
             <div className={clsx(styles.workSection, 'container')}>
 
 
@@ -42,9 +42,8 @@ export default function Work() {
                 <div className={styles.projects}>
                     <div className={styles.project}>
                         <div className={styles.projectInfo}>
-                            <h3 className="">{t('featured_projects.projects.0.title')} </h3>
-                            <Image src={Optika} alt="Optika Project Logo" />
-                            <p className={styles.award}> <a className="main-underline" href="">{t('featured_projects.projects.0.award')}</a> <Image src={link} alt="Link Icon" /></p>
+                            <Image width={150}  src={Optika} alt="Optika Project Logo" />
+                            <p className={styles.award}> <a target="_blank" className="main-underline" href="https://drive.google.com/file/d/1WjCo5RDTa4UVHccYmrY7tWwfuMHStb_0/view?usp=sharing">{t('featured_projects.projects.0.award')}</a> <Image src={link} alt="Link Icon" /></p>
                             <p>{t('featured_projects.projects.0.description')}</p>
                             <ul className={styles.projectFeatures}>
                                 {t.raw('featured_projects.projects.0.features').map((feature: string) => (
@@ -60,8 +59,8 @@ export default function Work() {
                             </ul>
                         </div>
 
-                            
-                        <p style={{marginBottom: '0.2rem'}} className={styles.award}> <a target="_blank" rel="noopener noreferrer" className="main-underline" href="https://www.linkedin.com/posts/danielpalaciosdiego_i-remember-that-a-year-ago-my-teammates-activity-7107840156082012161-Chvz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-iRwBVyJCl-6kUZN7NU8YMfVxnqL4SrQ">{t('featured_projects.video_cta')}</a> <Image src={link} alt="Link Icon" /></p>
+
+                        <p style={{ marginBottom: '0.2rem' }} className={styles.award}> <a target="_blank" rel="noopener noreferrer" className="main-underline" href="https://www.linkedin.com/posts/danielpalaciosdiego_i-remember-that-a-year-ago-my-teammates-activity-7107840156082012161-Chvz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-iRwBVyJCl-6kUZN7NU8YMfVxnqL4SrQ">{t('featured_projects.video_cta')}</a> <Image src={link} alt="Link Icon" /></p>
                         <p className={styles.award}> <a target="_blank" rel="noopener noreferrer" className="main-underline" href="https://github.com/DanielPalacios05/OptikaProject">{t('featured_projects.code_cta')}</a> <Image src={link} alt="Link Icon" /></p>
                     </div>
 
@@ -105,7 +104,7 @@ export default function Work() {
 
                     </div>
                 </div>
-                <div style={{marginTop: '2.5rem'}} className={styles.projectLink}>
+                <div style={{ marginTop: '2.5rem' }} className={styles.projectLink}>
                     <a className="main-underline" href="https://github.com/DanielPalacios05" target="_blank" rel="noopener noreferrer">
                         <span>{t('featured_projects.github_cta')}</span>
                         <Image src={link} alt="Link Icon" />

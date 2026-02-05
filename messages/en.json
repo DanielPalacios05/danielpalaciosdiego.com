@@ -1,7 +1,7 @@
 {
     "HomePage": {
         "title": "Welcome to Daniel Palacios",
-        "description": "Portafolio and Personal Site"
+        "description": "Portfolio and Personal Site"
     },
     "Navigation": {
         "home": "Home",
@@ -10,10 +10,12 @@
         "contact": "Contact"
     },
     "Hero": {
-        "name": "Daniel Ricardo Palacios Diego",
+        "name": "<daniel>Daniel</daniel> <ricardo>Ricardo</ricardo> Palacios Diego",
+        "daniel_caption": "My grandpa Daniel is known for his charisma, love for helping, and will always greet you with warmth and a big smile (and a piece of wisdom).",
+        "ricardo_caption": "My grandfather Ricardo has been one of the boldest, hardest working people I’ve met in my life. RIP 1952-2021🕊️",
         "role": "Full-Stack Software Engineer and UX/UI Designer",
         "quote": "My purpose is to transform the world through education and technology.",
-        "bio": "I’m a bilingual product-minded full-stack engineer who ships fast, scalable systems—from UX to production. I’ve delivered measurable impact (50% faster load times, cut delivery from 6 to 3 months) by building across frontend, backend, and modern deployment workflows. I’m known for ownership, clear communication, leadership and problem solving in complex domains. \n\n I’m deepening my software engineering and web development craft while pursuing research-driven interests in Human–Computer Interaction (HCI), AR/VR, and applied AI.",
+        "bio": "I am a bilingual Full-Stack Engineer who builds fast, scalable systems from UX to production. I've delivered measurable impact such as 50% faster load times and reducing project delivery from 6 to 3 months—by building across frontend, backend, and modern development workflows. I am known for my product ownership, clear communication, leadership, and problem-solving in complex domains, always striving for excellence.\n\nI am passionate about creating innovative, disruptive technology and the intersection of Human-Computer Interaction (HCI), AR/VR, and Applied AI.",
         "downloadCv": "Download CV",
         "workTogether": "Let's work together"
     },
@@ -26,16 +28,16 @@
         "web-ui": "Web UI",
         "backend": "Backend",
         "data": "Data",
-        "infrastrucuture_tools": "Infrastructure & Tools"
+        "infrastructure_tools": "Infrastructure & Tools"
     },
     "Education": {
         "title": "Education",
         "eafit": {
-            "title": "Computer Science major with Minor in Software Development",
-            "scholarship": "Awardee of Generacion E Scholarhsip for outstanding results in nation wide standardized exam",
+            "title": "Computer Science Major with Minor in Software Development",
+            "scholarship": "Awardee of Generacion E Scholarship for outstanding results in nation wide standardized exam",
             "optika": "Award winning project Optika",
             "representative": "Computer science student representative",
-            "afroeafit": "Founder of EAFIT Black collective AFROEAFIT}",
+            "afroeafit": "Founder of EAFIT Black collective AFROEAFIT",
             "gpa": "4.4/5 GPA"
         },
         "certs": {
@@ -53,9 +55,9 @@
             }
         },
         "readings": {
-            "content": "Most of my learning is done by reading, it allows me to engage in a deeper relationship with the information in trying to grasp. For technical books I usually reach for O’reilly Media.",
+            "content": "Most of my learning is done by reading, it allows me to engage in a deeper relationship with the information in trying to grasp. For technical books I usually reach for O'Reilly Media.",
             "cta": "Here there is a list of books I’ve studied and constantly find myself going back to.",
-            "imageCaption": "For my lifelong learning I pick one technical book an a non technical book to study, sometimes I will pick a paper/article of interest to read."
+            "imageCaption": "For my lifelong learning I pick one technical book and a non-technical book to study, sometimes I will pick a paper/article of interest to read."
         }
     },
     "Work": {
@@ -64,7 +66,8 @@
             "experiences": {
                 "eafit": {
                     "title": "EAFIT",
-                    "role": "Capstone 1 Teaching Asisstant",
+                    "role": "Capstone 1 Teaching Assistant",
+                    "date_range": "Jun 2024 - Ene 2023",
                     "activities": [
                         "Mentored 200+ students on full stack development"
                     ]
@@ -72,21 +75,23 @@
                 "cadena": {
                     "title": "Cadena",
                     "role": "Tech Intern",
+                    "date_range": "Dec 2024 - Jun 2024",
                     "activities": [
-                        "Developed a no code tool for building HTML templates with variables inside and a no code chart builder using React, Redux and .NET, significantly reducing HTML templates and charts development time.",
+                        "Developed a no code tool for building HTML templates and dynamic charts using React, Redux and .NET, cutting HTML templates development time.",
+                        "Embedded a variable manager for inserting value placeholders in templates to create multiple HTML pages with different data.",
                         "Optimized backend and frontend API calls, improving template loading times by 50%.",
                         "Reduced project duration from 6 to 3 months"
                     ]
                 },
                 "cocomasur": {
+                    "date_range": "Dec 2025 - Sep 2025",
                     "title": "Cocomasur",
                     "role": "Software Engineer",
                     "activities": [
-                        "Led the redesign and development of strategic sections of the website (MCAC, Formados, Chocó–Darién Corridor), applying requirements gathering, Figma prototyping, and frontend development with HTML, CSS, and JavaScript.",
-                        "Fixed 40 bugs and updated the content of the website cocomasur.org",
-                        "Implemented maintenance processes, daily monitoring, periodic backups, and basic cybersecurity practices to ensure the stability of the digital ecosystem.",
-                          "Coordinated and delivered Excel training sessions, designing content, assessments, and learning follow-up for the team."
-                    ]
+                        "Led the redesign and development of strategic sections of the website (MCAC, Formación, Chocó–Darién Corridor), applying requirements gathering, Figma prototyping, and frontend development with HTML, CSS, and JavaScript.",
+                        "Coordinated and delivered tech training sessions, designing content, assessments, and learning follow-up for the team."
+                    ],
+                    "check_design": "Click to check"
                 }
             }
         },
@@ -99,13 +104,12 @@
             "projects": [
                 {
                     "title": "Optika",
-                    "description": " IoT + AI home security system based on real time facial recognition.",
-                    "award": "Best solution award winner at EAFIT Hackathon 2024",
+                    "description": "Home security system with facial recognition for real time detection of trusted individuals and possible intruders.",
+                    "award": "Best solution award winner at GEMIS awards 2022",
                     "features": [
-                        "Live video streaming from the IoT Device Camera ",
-                        "Facial detection and recognition of known and unknown people",
-                        "Detection history",
-                        "Door control using Arduino"
+                        "Face detection and recognition pipeline for identity verification.",
+                        "IoT device with camera and servo-controlled door mechanism",
+                        "Web application for adding facial recognition to trusted visitors, detection logs, video streaming from Optika Camera, and trigger email alerts."
                     ]
                 },
                 {
@@ -113,7 +117,8 @@
                     "description": "Multithreaded in-memory database management system with AOF (Append-only file) persistence mechanism.",
                     "features": [
                         "TCP Server implementation using Sockets and Threads",
-                        "6 data types, JSON Schema definition and CRUD support",
+                        "Implemented basic INSERT, UPDATE, DELETE, SELECT operations, ensuring data integrity in a multithreaded environment using locks.",
+                        "Added 5 data types (int, string, datetime, boolean, array), foreign key support and CREATE database operation from a JSON database schema",
                         "Java CLI client for managing a KarelDB instance"
                     ]
                 },
@@ -140,7 +145,7 @@
             },
             "projects": [
                 {
-                    "description": "<p>Inspired by the vibrant colors of the brand and their chivas I designed and developed TuryChivas website to showcase their offering and streamiline customer inquiry resolution and booking.</p> <ul><li>SEO Optimization</li><li>Analytics dashboard</li><li>Content management system</li></ul>"
+                    "description": "<p>Inspired by the vibrant colors of the brand and their chivas I designed and developed TuryChivas website to showcase their offering and streamline customer inquiry resolution and booking.</p> <ul><li>SEO Optimization</li><li>Analytics dashboard</li><li>Content management system</li></ul>"
                 }
             ]
         }

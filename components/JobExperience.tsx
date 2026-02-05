@@ -8,6 +8,9 @@ import cadena from "@/public/images/cadena_no_bg.png"
 import cadenaAuxImage from "@/public/images/danielcadena.png"
 import cocomasur from "@/public/images/cocomasure_no_bg.png"
 import collage from "@/public/images/collage.jpg"
+import clsx from "clsx";
+import formacion from "@/public/images/formacion.png"
+import mcac from "@/public/images/mcac.png"
 
 export default function JobExperience() {
 
@@ -21,63 +24,155 @@ export default function JobExperience() {
     ];
 
     return (
-        <div className={styles.jobExperience}>
-
-            <div className={styles.timelineItem}>
+        <div className={styles.jobExperienceContainer}>
 
 
-            <div id="eafit" className={styles.jobCard}>
-                <div className={styles.imagesContainer}>
-                    <Image src={eafit} alt="EAFIT Logo" />
-                </div>
-                <div className={styles.description}>
-                    <p>{t("experiences.eafit.role")}</p>
-                    <ul>
-                        {t.raw("experiences.eafit.activities").map((activity, index) => (
-                            <li key={index}>{activity}</li>
-                        ))}
-                    </ul>
-                </div>
 
-            </div>
-            </div>
-
-            <div className={styles.timelineItem}>
+            <div className={styles.jobExperience}>
 
 
-                <div id="cadena" className={styles.jobCard}>
 
-                    <div className={styles.imagesContainer}>
-                        <Image src={cadena} alt="Cadena Logo" />
-                        <Image src={cadenaAuxImage} alt="Cadena Aux Image" />
+                <div className={styles.timelineItem}>
+
+                    <p className={styles.date}>{t("experiences.cocomasur.date_range")}</p>
+                    <div className={styles.separator}>
+
+                        <div className={styles.timeline}>
+
+                            <div className={clsx(styles.line)}>
+                            </div>
+                            <div className={styles.circle}>
+                            </div>
+
+                            <div className={styles.line}>
+
+                            </div>
+                        </div>
+
+
                     </div>
-                    <div className={styles.description}>
-                        <p>{t("experiences.cadena.role")}</p>
-                        <ul>
-                            {t.raw("experiences.cadena.activities").map((activity, index) => (
-                                <li key={index}>{activity}</li>
-                            ))}
-                        </ul>
+
+
+
+
+                    <div id={styles.cocomasur} className={styles.jobCard}>
+
+
+                        <div className={styles.description}>
+                            <p>{t("experiences.cocomasur.role")}</p>
+                            <ul>
+                                {t.raw("experiences.cocomasur.activities").map((activity, index) => (
+                                    <li key={index}>{activity}</li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div className={styles.imagesContainer}>
+                            <div className={styles.imagesCol}>
+                                <Image src={cocomasur} alt="Cocomasur Logo" />
+                                <Image height={160} src={collage} alt="Cocomasur Collage" />
+                            </div>
+
+                            <div id={styles.designs} className={styles.imagesCol}>
+                                <p className={clsx(styles.designTitle, "main-underline")}>{t("experiences.cocomasur.check_design")}</p>
+                                <a href="https://drive.google.com/file/d/1yVS906KoHkfpfqbALxMjzGbcUet0LTDA/view?usp=sharing
+                                " target="_blank" rel="noopener noreferrer">
+                                    <Image src={formacion} alt="Formacion Design" />
+                                </a>
+                                <a href="https://drive.google.com/file/d/160Oe-v6nivFG6VMYlIq9Jsl88s3BUDKY/view?usp=sharing
+                                " target="_blank" rel="noopener noreferrer">
+                                    <Image src={mcac} alt="MCAC Design" />
+                                </a>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div className={styles.timelineItem}>
 
 
-                <div id={styles.cocomasur} className={styles.jobCard}>
 
-                    <div className={styles.imagesContainer}>
-                        <Image src={cocomasur} alt="Cocomasur Logo" />
-                        <Image src={collage} alt="Cocomasur Collage" />
+
+                <div className={styles.timelineItem}>
+
+                    <p className={styles.date}>{t("experiences.cadena.date_range")}</p>
+
+                    <div className={styles.separator}>
+
+                        <div className={styles.timeline}>
+
+                            <div className={clsx(styles.line)}>
+
+                            </div>
+                            <div className={styles.circle}>
+                            </div>
+
+                            <div className={styles.line}>
+
+                            </div>
+                        </div>
+
+
                     </div>
-                    <div className={styles.description}>
-                        <p>{t("experiences.cocomasur.role")}</p>
-                        <ul>
-                            {t.raw("experiences.cadena.activities").map((activity, index) => (
-                                <li key={index}>{activity}</li>
-                            ))}
-                        </ul>
+
+
+
+                    <div id="cadena" className={styles.jobCard}>
+
+
+                        <div className={styles.description}>
+                            <p>{t("experiences.cadena.role")}</p>
+                            <ul>
+                                {t.raw("experiences.cadena.activities").map((activity, index) => (
+                                    <li key={index}>{activity}</li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        <div className={styles.imagesContainer}>
+                            <Image src={cadena} alt="Cadena Logo" />
+                            <Image src={cadenaAuxImage} alt="Cadena Aux Image" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div className={styles.timelineItem}>
+
+                    <p className={styles.date}>{t("experiences.eafit.date_range")}</p>
+
+                    <div className={styles.separator}>
+
+                        <div className={styles.timeline}>
+
+                            <div className={clsx(styles.line)}>
+
+                            </div>
+                            <div className={styles.circle}>
+                            </div>
+
+                            <div className={styles.line}>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div id="eafit" className={styles.jobCard}>
+                        <div className={styles.description}>
+                            <p>{t("experiences.eafit.role")}</p>
+                            <ul>
+                                {t.raw("experiences.eafit.activities").map((activity, index) => (
+                                    <li key={index}>{activity}</li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div className={styles.imagesContainer}>
+                            <Image src={eafit} alt="EAFIT Logo" />
+                        </div>
+
                     </div>
                 </div>
 

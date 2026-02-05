@@ -92,7 +92,7 @@ export default function TechStack() {
             <div className={styles.technologies}>
 
 
-                <TechCategoryCard className={styles.infraTools} name={t('infrastrucuture_tools')} items={categories[2].items} />
+                <TechCategoryCard className={styles.infraTools} name={t('infrastructure_tools')} items={categories[2].items} />
 
                 <TechCategoryCard name={t('design')} items={categories[0].items} />
 

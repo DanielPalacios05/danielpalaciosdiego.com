@@ -1,52 +1,167 @@
-
-
 .jobExperience {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
     overflow-x: scroll;
+    align-items: flex-start;
 }
 
-.jobExperience .timelineItem{
-    flex: 1 0 90vw;
-    padding: 0 1rem;
+.jobExperienceContainer{
+    max-width: 1400px;
+}
+
+.date {
+    text-align: center;
+}
+
+.timeline {
     display: flex;
-    flex-direction:  column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.line {
+    flex: 1;
+    height: 3px;
+    background-color: black;
+}
+
+
+.circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.timelineItem .date {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.jobExperience .timelineItem {
+    flex: 1 0 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
+
+ .timelineItem:first-child .line:first-child{
+    visibility: hidden;
+}
+
+
+ .timelineItem:last-child .line:last-child{
+    visibility: hidden;
+}
+
+
 
 .jobCard {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1em;
     align-content: center;
 }
 
-.jobCard ul{
-    padding-left: 1rem;
+.timelineItem + .timelineItem .jobCard{
+    padding: 0 1em;
 }
 
-.jobCard .description p {
+
+.jobCard ul {
+    padding-left: 1em;
+}
+
+.jobCard .description ul li+li {
+    margin-top: 1em;
+}
+
+.description p {
     font-family: var(--font-title);
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 0.2em;
+}
+
+#designs {
+    flex-direction: column;
+    gap: 0.5rem;
+    display: flex;
+}
+
+#cocomasur .imagesContainer {
+    flex-direction: column;
 }
 
 .imagesContainer {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
-
-.imagesContainer img{
-    width: 100%;
-    height: auto;
-    max-width: 250px;
     margin: 0 auto;
+    align-items: center;
+    justify-items: center;
 }
 
-#cocomasur .imagesContainer img{
-    max-width:150px;
+#designs a img {
+    transition: transform 0.3s ease;
+    
 }
 
+#designs a:hover img {
+    transform: scale(1.05);
+}
+
+
+#cocomasur .imagesContainer{
+    flex-direction: row;
+    align-items: center;
+}
+
+#designs .designTitle{
+    text-align: center;
+    font-weight: bold;
+}
+
+#designs img{
+    width: 100px;
+    height: auto;
+}
+
+.imagesContainer .imagesCol{
+    flex: 1;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+@media screen and (min-width: 30rem) {
+
+    #cocomasur .imagesContainer img {
+        max-width: 350px;
+    }
+
+}
+
+@media screen and (min-width: 64rem) {
+    .jobExperience .timelineItem{
+        flex: 1;
+    }
+
+    .jobExperience{
+        overflow-x: initial;
+    }
+}

@@ -8,8 +8,21 @@
 }
 
 
+
+
 .section {
     margin: 0 auto;
+}
+
+.university img{
+    max-width: 50%;
+    height: auto;
+}
+
+@media screen and (min-width: 400px) {
+    .university img{
+        max-width: initial;
+    }
 }
 
 .university {

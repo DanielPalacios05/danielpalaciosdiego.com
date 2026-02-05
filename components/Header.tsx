@@ -19,8 +19,8 @@ export default function Header() {
         <header className={clsx(styles.header, 'container')}>
             {/* Desktop Left Nav */}
             <nav className={clsx(styles.navSection, styles.desktopOnly)}>
-                <Link href="/" className={styles.navLink}>{t('home')}</Link>
-                <Link href="/work" className={styles.navLink}>{t('work')}</Link>
+                <Link href="/#home" className={styles.navLink}>{t('home')}</Link>
+                <Link href="/#work" className={styles.navLink}>{t('work')}</Link>
             </nav>
 
             <div className={styles.logoContainer}>
@@ -41,16 +41,16 @@ export default function Header() {
 
             {/* Desktop Right Nav */}
             <nav className={clsx(styles.navSection, styles.desktopOnly)}>
-                <Link href="/contact" className={styles.navLink}>{t('contact')}</Link>
+                <Link href="/#contact" className={styles.navLink}>{t('contact')}</Link>
                 <LanguageSwitcher />
             </nav>
 
             {/* Mobile Dropdown */}
             <div className={clsx(styles.mobileMenu, isMenuOpen && styles.menuOpen)}>
                 <nav className={styles.mobileNav}>
-                    <Link href="/" className={styles.mobileNavLink} onClick={closeMenu}>{t('home')}</Link>
-                    <Link href="/work" className={styles.mobileNavLink} onClick={closeMenu}>{t('work')}</Link>
-                    <Link href="/contact" className={styles.mobileNavLink} onClick={closeMenu}>{t('contact')}</Link>
+                    <Link href="/#home" className={styles.mobileNavLink} onClick={closeMenu}>{t('home')}</Link>
+                    <Link href="/#work" className={styles.mobileNavLink} onClick={closeMenu}>{t('work')}</Link>
+                    <Link href="/#contact" className={styles.mobileNavLink} onClick={closeMenu}>{t('contact')}</Link>
                     <div className={styles.mobileLang}>
                         <LanguageSwitcher />
                     </div>

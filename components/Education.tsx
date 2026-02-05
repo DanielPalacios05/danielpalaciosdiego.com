@@ -95,7 +95,7 @@ export default function Education() {
             <div className={clsx(styles.readings)}>
                 <div className={styles.content}>
                     <p>{t('readings.content')}</p>
-                    <a className='main-underline' href="https://learning.oreilly.com/playlists/c95d1ecb-0e56-4a5b-893c-e89a50bcdacd"> {t('readings.cta')}</a>
+                    <a className='main-underline' target='_blank' href="https://learning.oreilly.com/playlists/c95d1ecb-0e56-4a5b-893c-e89a50bcdacd"> {t('readings.cta')}</a>
                 </div>
                 <div className={styles.readingImage}>
                     <div className={styles.imageContainer}>

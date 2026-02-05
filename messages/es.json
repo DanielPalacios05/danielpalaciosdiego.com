@@ -6,13 +6,16 @@
     "Navigation": {
         "home": "Inicio",
         "work": "Trabajo",
+        "about": "Sobre mí",
         "contact": "Contacto"
     },
     "Hero": {
-        "name": "Daniel Ricardo Palacios Diego",
+        "name": "<daniel>Daniel</daniel> <ricardo>Ricardo</ricardo> Palacios Diego",
+        "daniel_caption": "Mi abuelo Daniel es conocido por su carisma, amor por ayudar, y siempre te saludará con calidez y una gran sonrisa (y un consejo).",
+        "ricardo_caption": "Mi abuelo Ricardo ha sido una de las personas más audaces y trabajadoras que he conocido en mi vida. QEPD 1952-2021🕊️",
         "role": "Ingeniero de Software Full-Stack y Diseñador UX/UI",
         "quote": "Mi propósito es transformar el mundo a través de la educación y la tecnología.",
-        "bio": "Soy un ingeniero full-stack bilingüe con mentalidad de producto que envía sistemas rápidos y escalables, desde UX hasta producción. He entregado impacto medible (tiempos de carga 50% más rápidos, reducción de entrega de 6 a 3 meses) construyendo a través de frontend, backend y flujos de trabajo de despliegue modernos. Soy conocido por mi responsabilidad, comunicación clara, liderazgo y resolución de problemas en dominios complejos. \n\n Estoy profundizando mi oficio de ingeniería de software y desarrollo web mientras persigo intereses impulsados por la investigación en Interacción Humano-Computadora (HCI), RA/RV e IA aplicada.",
+        "bio": "Soy un ingeniero full-stack bilingüe que crea sistemas rápidos y escalables, desde UX hasta producción. He entregado impacto medible (tiempos de carga 50% más rápidos, reducción de tiempos de entrega de 6 a 3 meses) construyendo a través de frontend, backend y flujos de trabajo modernos. Soy conocido por mi responsabilidad, comunicación clara, liderazgo y resolución de problemas en dominios complejos, siempre aspirando a la excelencia. \n\n Apasionado por la creación de tecnología innovadora y disruptiva, y la intersección entre interacción Humano-Computador (HCI), realidad virtual y aumentada e IA aplicada.",
         "downloadCv": "Descargar CV",
         "workTogether": "Trabajemos juntos"
     },
@@ -25,14 +28,14 @@
         "web-ui": "Interfaces Web",
         "backend": "Backend",
         "data": "Datos",
-        "infrastrucuture_tools": "Infraestructura y Herramientas"
+        "infrastructure_tools": "Infraestructura y Herramientas"
     },
     "Education": {
         "title": "Educación",
         "eafit": {
             "title": "Pregrado en Ingeniería de Sistemas con Énfasis en Desarrollo de Software",
-            "scholarship": "Becario Generación E por resultados sobresalientes en las pruebas de estado nacionales",
-            "optika": "Proyecto ganador del premio Optika",
+            "scholarship": "Beca Generación E por resultados sobresalientes en las pruebas de estado nacionales",
+            "optika": "Proyecto ganador premio: Optika ",
             "representative": "Representante estudiantil de Ingeniería de Sistemas",
             "afroeafit": "Fundador del colectivo afro de EAFIT, AFROEAFIT",
             "gpa": "Promedio 4.4/5"
@@ -40,11 +43,11 @@
         "certs": {
             "mckinsey": {
                 "title": "McKinsey & Company",
-                "description": "Comunicación de impacto, Resolución estructurada de problemas, Adaptabilidad y resiliencia y más."
+                "description": "Comunicación para el impacto, Resolución estructurada de problemas, Adaptabilidad y resiliencia y más."
             },
             "alberta": {
                 "title": "Universidad de Alberta",
-                "description": "Patrones de diseño, SOA, Diagramas arquitectónicos y Compensaciones"
+                "description": "Patrones de diseño, SOA, Diagramas arquitectónicos y Trade-offs"
             },
             "learnquest": {
                 "title": "LearnQuest",
@@ -52,7 +55,7 @@
             }
         },
         "readings": {
-            "content": "La mayor parte de mi aprendizaje se realiza leyendo, lo que me permite entablar una relación más profunda con la información que intento comprender. Para libros técnicos suelo recurrir a O’reilly Media.",
+            "content": "La mayor parte de mi aprendizaje se realiza leyendo, lo que me permite tener una relación más profunda con la información que intento comprender. Para libros técnicos suelo recurrir a O'Reilly Media.",
             "cta": "Aquí hay una lista de libros que he estudiado y a los que constantemente regreso.",
             "imageCaption": "Para mi aprendizaje continuo elijo un libro técnico y uno no técnico para estudiar, a veces elijo un paper/artículo de interés para leer."
         }
@@ -62,11 +65,33 @@
             "title": "Experiencia Laboral",
             "experiences": {
                 "eafit": {
-                    "title": "Universidad EAFIT",
-                    "description": "Ingeniero de Software",
+                    "title": "EAFIT",
+                    "role": "Monitor Académico de Proyecto integrador I",
+                    "date_range": "Jun 2024 - Ene 2023",
                     "activities": [
-                        "Asesoré a mas de 200+ estudiantes de desarrollo de software"
+                        "Asesoré a más de 200 estudiantes en desarrollo full stack"
                     ]
+                },
+                "cadena": {
+                    "title": "Cadena",
+                    "role": "Practicante de Tecnología",
+                    "date_range": "Dic 2024 - Jun 2024",
+                    "activities": [
+                        "Desarrollé una herramienta no-code para construir plantillas HTML y gráficos dinámicos usando React, Redux y .NET, reduciendo el tiempo de desarrollo de plantillas.",
+                        "Integré un gestor de variables para insertar variables en las plantillas, facilitando la generación automática de múltiples páginas HTML con distintos conjuntos de datos.",
+                        "Optimicé llamadas API de backend y frontend, mejorando los tiempos de carga de plantillas en un 50%.",
+                        "Reduje la duración del proyecto de 6 a 3 meses"
+                    ]
+                },
+                "cocomasur": {
+                    "date_range": "Dic 2025 - Sep 2025",
+                    "title": "Cocomasur",
+                    "role": "Ingeniero de Software",
+                    "activities": [
+                        "Lideré el rediseño y desarrollo de secciones estratégicas del sitio web (MCAC, Formación, Corredor Chocó–Darién), aplicando levantamiento de requerimientos, prototipado en Figma y desarrollo frontend con HTML, CSS y JavaScript.",
+                        "Coordiné e impartí sesiones de capacitación técnica, diseñando contenido, evaluaciones y seguimiento del aprendizaje para el equipo."
+                    ],
+                    "check_design": "Clic para ver"
                 }
             }
         },
@@ -79,13 +104,12 @@
             "projects": [
                 {
                     "title": "Optika",
-                    "description": "Optika es un proyecto creado para ayudar a los estudiantes de la Universidad EAFIT a encontrar los mejores cursos para tomar basándose en sus intereses y metas profesionales.",
-                    "award": "Ganador del premio a la mejor solución en el Hackathon EAFIT 2024",
+                    "description": "Sistema de seguridad para el hogar con reconocimiento facial para la detección en tiempo real de personas de confianza y posibles intrusos.",
+                    "award": "Ganador del premio a la mejor solución en los premios GEMIS 2022",
                     "features": [
-                        "Transmisión de video en vivo desde la cámara del dispositivo IoT",
-                        "Detección facial y reconocimiento de personas conocidas y desconocidas",
-                        "Historial de detección",
-                        "Control de puerta usando Arduino"
+                        "Pipeline de detección y reconocimiento facial para la verificación de identidad.",
+                        "Dispositivo IoT con cámara y mecanismo de puerta controlado por servomotor.",
+                        "Aplicación web para registrar visitantes de confianza, consultar historiales de detección, ver transmisión de video de la cámara Optika y activar alertas por correo electrónico."
                     ],
                     "video_cta": "Ver Video"
                 },
@@ -94,7 +118,8 @@
                     "description": "Sistema de gestión de bases de datos en memoria multihilo con mecanismo de persistencia AOF (Append-only file).",
                     "features": [
                         "Implementación de servidor TCP usando Sockets e Hilos",
-                        "6 tipos de datos, definición de esquemas JSON y soporte CRUD",
+                        "Implementación de operaciones básicas INSERT, UPDATE, DELETE, SELECT, asegurando la integridad de datos en un entorno multihilo usando bloqueos (locks).",
+                        "Adición de 5 tipos de datos (int, string, datetime, boolean, array), soporte de claves foráneas y operación CREATE database desde un esquema de base de datos JSON",
                         "Cliente CLI en Java para gestionar una instancia de KarelDB"
                     ],
                     "video_cta": "Ver Código"

@@ -1,0 +1,60 @@
+.interactiveWord {
+    position: relative;
+    cursor: pointer;
+    text-decoration-line: underline;
+    /* main-underline classes from globals.css usually handle color/style but we need to ensure underline is on */
+}
+
+/* Ensure the main-underline class styles are applied - they are global so clsx('main-underline') works */
+
+
+.popup {
+    position: absolute;
+    /* Above the word */
+    left: 70%;
+    transform: translateX(-50%) translateY(10px);
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s ease, transform 0.8s ease, visibility 0.8s;
+    z-index: 10;
+    width: max-content;
+    max-width: 200px;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+@media screen and (min-width: 400px) {
+    .popup {
+        left: 50%;
+    }
+}
+
+.popupVisible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
+}
+
+.popupImage {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.caption {
+    font-size: 0.6rem;
+    color: #808080;
+    /* Grayish */
+    font-style: italic;
+    text-align: center;
+}
