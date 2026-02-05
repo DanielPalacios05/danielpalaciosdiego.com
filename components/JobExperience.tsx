@@ -61,7 +61,7 @@ export default function JobExperience() {
                         <div className={styles.description}>
                             <p>{t("experiences.cocomasur.role")}</p>
                             <ul>
-                                {t.raw("experiences.cocomasur.activities").map((activity, index) => (
+                                {t.raw("experiences.cocomasur.activities").map((activity: string, index: number) => (
                                     <li key={index}>{activity}</li>
                                 ))}
                             </ul>
@@ -121,7 +121,7 @@ export default function JobExperience() {
                         <div className={styles.description}>
                             <p>{t("experiences.cadena.role")}</p>
                             <ul>
-                                {t.raw("experiences.cadena.activities").map((activity, index) => (
+                                {t.raw("experiences.cadena.activities").map((activity: string, index: number) => (
                                     <li key={index}>{activity}</li>
                                 ))}
                             </ul>
@@ -164,7 +164,7 @@ export default function JobExperience() {
                         <div className={styles.description}>
                             <p>{t("experiences.eafit.role")}</p>
                             <ul>
-                                {t.raw("experiences.eafit.activities").map((activity, index) => (
+                                {t.raw("experiences.eafit.activities").map((activity: string, index: number) => (
                                     <li key={index}>{activity}</li>
                                 ))}
                             </ul>
