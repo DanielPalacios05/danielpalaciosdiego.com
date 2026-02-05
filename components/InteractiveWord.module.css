@@ -11,7 +11,7 @@
 .popup {
     position: absolute;
     /* Above the word */
-    left: 70%;
+    left: 50%;
     transform: translateX(-50%) translateY(10px);
     background-color: white;
     padding: 0.5rem;
@@ -31,9 +31,13 @@
 
 }
 
-@media screen and (min-width: 400px) {
-    .popup {
-        left: 50%;
+.interactiveWord:first-child .popup {
+    margin-left: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+    .interactiveWord:first-child .popup {
+        margin-left: 0;
     }
 }
 
@@ -52,7 +56,7 @@
 }
 
 .caption {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     color: #808080;
     /* Grayish */
     font-style: italic;
