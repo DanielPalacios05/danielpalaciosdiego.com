@@ -3,6 +3,10 @@
         "title": "Bienvenido a Daniel Palacios",
         "description": "Portafolio y Sitio Personal"
     },
+    "Metadata": {
+        "title": "Daniel Palacios | Ingeniero de Software Full-Stack",
+        "description": "Soy un ingeniero full-stack bilingüe que crea sistemas rápidos y escalables, desde UX hasta producción. He entregado impacto medible (tiempos de carga 50% más rápidos, reducción de tiempos de entrega de 6 a 3 meses) construyendo a través de frontend, backend y flujos de trabajo modernos."
+    },
     "Navigation": {
         "home": "Inicio",
         "work": "Trabajo",

@@ -3,6 +3,10 @@
         "title": "Welcome to Daniel Palacios",
         "description": "Portfolio and Personal Site"
     },
+    "Metadata": {
+        "title": "Daniel Palacios | Full-Stack Software Engineer",
+        "description": "I am a bilingual Full-Stack Engineer who builds fast, scalable systems from UX to production. I've delivered measurable impact such as 50% faster load times and reducing project delivery from 6 to 3 months—by building across frontend, backend, and modern development workflows."
+    },
     "Navigation": {
         "home": "Home",
         "work": "Work",
