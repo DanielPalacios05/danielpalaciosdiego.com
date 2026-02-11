@@ -53,9 +53,11 @@ export default function Education() {
                 </div>
 
             </div>
-
+            <h2>{t('certs.title')}</h2>
 
             <div className={styles.certs}>
+
+        
 
                 <div className={styles.cert}>
                     <Image src={mckinsey} alt="McKinsey & Company" />

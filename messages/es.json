@@ -46,6 +46,7 @@
             "gpa": "Promedio 4.4/5"
         },
         "certs": {
+            "title": "Certificaciones",
             "mckinsey": {
                 "title": "McKinsey & Company",
                 "description": "Comunicación para el impacto, Resolución estructurada de problemas, Adaptabilidad y resiliencia y más."

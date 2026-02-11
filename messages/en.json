@@ -46,6 +46,7 @@
             "gpa": "4.4/5 GPA"
         },
         "certs": {
+            "title": "Certifications",
             "mckinsey": {
                 "title": "McKinsey & Company",
                 "description": "Communication for impact, Structured problem solving, Adaptability and resilience and more."
