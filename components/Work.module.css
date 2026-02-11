@@ -1,11 +1,12 @@
 
 .workSection {
     margin: 0 auto;
-    max-width: 1400px;
+    line-height: 1.4;
 }
 
 .award {
     font-weight: bold;
+    text-align: center;
 }
 
 .projects {

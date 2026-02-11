@@ -4,8 +4,9 @@
         "description": "Portafolio y Sitio Personal"
     },
     "Metadata": {
-        "title": "Daniel Palacios | Ingeniero de Software Full-Stack",
-        "description": "Soy un ingeniero full-stack bilingüe que crea sistemas rápidos y escalables, desde UX hasta producción. He entregado impacto medible (tiempos de carga 50% más rápidos, reducción de tiempos de entrega de 6 a 3 meses) construyendo a través de frontend, backend y flujos de trabajo modernos."
+        "title": "Daniel Palacios | Ingeniero de Software Full-Stack y Diseñador UX/UI",
+        "description": "Daniel Palacios es un ingeniero full-stack bilingüe que crea sistemas rápidos y escalables, desde UX hasta producción. Ha entregado impacto medible (tiempos de carga 50% más rápidos, reducción de tiempos de entrega de 6 a 3 meses) construyendo a través de frontend, backend y flujos de trabajo modernos.",
+        "keywords": "Daniel Palacios, Ingeniero Full-Stack, Ingeniero de Software, Diseñador UX/UI, React, Next.js, Portafolio, Desarrollo Web, Frontend, Backend"
     },
     "Navigation": {
         "home": "Inicio",
@@ -21,7 +22,7 @@
         "quote": "Mi propósito es transformar el mundo a través de la educación y la tecnología.",
         "bio": "Soy un ingeniero full-stack bilingüe que crea sistemas rápidos y escalables, desde UX hasta producción. He entregado impacto medible (tiempos de carga 50% más rápidos, reducción de tiempos de entrega de 6 a 3 meses) construyendo a través de frontend, backend y flujos de trabajo modernos. Soy conocido por mi responsabilidad, comunicación clara, liderazgo y resolución de problemas en dominios complejos, siempre aspirando a la excelencia. \n\n Apasionado por la creación de tecnología innovadora y disruptiva, y la intersección entre interacción Humano-Computador (HCI), realidad virtual y aumentada e IA aplicada.",
         "downloadCv": "Descargar CV",
-        "workTogether": "Trabajemos juntos"
+        "workTogether": "Pongámonos en contacto"
     },
     "Footer": {
         "rights": "Todos los derechos reservados"
@@ -38,8 +39,8 @@
         "title": "Educación",
         "eafit": {
             "title": "Pregrado en Ingeniería de Sistemas con Énfasis en Desarrollo de Software",
-            "scholarship": "Beca Generación E por resultados sobresalientes en las pruebas de estado nacionales",
-            "optika": "Proyecto ganador premio: Optika ",
+            "scholarship": "Beneficiario de la beca de financiación completa Generación E por desempeño sobresaliente en pruebas de estado",
+            "optika": "Proyecto ganador de premio: <optika>Optika</optika>",
             "representative": "Representante estudiantil de Ingeniería de Sistemas",
             "afroeafit": "Fundador del colectivo afro de EAFIT, AFROEAFIT",
             "gpa": "Promedio 4.4/5"
@@ -66,6 +67,7 @@
     },
     "Work": {
         "job_experience": {
+            "swipe_sign": "Desliza para explorar la línea de tiempo",
             "title": "Experiencia Laboral",
             "experiences": {
                 "eafit": {

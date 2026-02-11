@@ -35,14 +35,41 @@ export default function Work() {
 
                 <JobExperience />
 
+
+
+                <h2 style={{ textAlign: 'center' }}>{t('client_solutions.title')}</h2>
+                <p style={{ marginBottom: '1rem' }}>{t('client_solutions.description')}</p>
+                <ul className={styles.projectFeatures}>
+                    <li>{t.rich('client_solutions.offerings.website', {
+                        b: (chunks) => <b className="">{chunks}</b>
+                    })}</li>
+                    <li>{t.rich('client_solutions.offerings.software', {
+                        b: (chunks) => <b className="">{chunks}</b>
+                    })}</li>
+                </ul>
+
+                <div className={styles.clientSolutions}>
+
+                    <div className={styles.clientSolution}>
+                        <Image src={chivasLogo} alt="Chivas Logo" />
+                        <div className={styles.description}>{t.rich('client_solutions.projects.0.description', {
+                            p: (chunks) => <p>{chunks}</p>,
+                            li: (chunks) => < li className={styles.projectFeatures}>{chunks}</li>,
+                            ul: (chunks) => <ul className={styles.projectFeatures}>{chunks}</ul>
+                        })}</div>
+                        <Image style={{ maxWidth: '100%', height: 'auto' }} src={chivasWebsiteImages} alt="Images of TuryChivas website"></Image>
+                    </div>
+
+                </div>
+
                 <h2 className={styles.title}>{t('featured_projects.title')}</h2>
                 <p className={styles.description}>{t('featured_projects.description')}</p>
 
 
                 <div className={styles.projects}>
-                    <div className={styles.project}>
+                    <div id="optika" className={styles.project}>
                         <div className={styles.projectInfo}>
-                            <Image width={150}  src={Optika} alt="Optika Project Logo" />
+                            <Image width={150} src={Optika} alt="Optika Project Logo" />
                             <p className={styles.award}> <a target="_blank" className="main-underline" href="https://drive.google.com/file/d/1WjCo5RDTa4UVHccYmrY7tWwfuMHStb_0/view?usp=sharing">{t('featured_projects.projects.0.award')}</a> <Image src={link} alt="Link Icon" /></p>
                             <p>{t('featured_projects.projects.0.description')}</p>
                             <ul className={styles.projectFeatures}>
@@ -110,34 +137,11 @@ export default function Work() {
                         <Image src={link} alt="Link Icon" />
                     </a>
                 </div>
+
+
             </div>
 
-            <div className="container">
-                <h2 style={{ textAlign: 'center' }}>{t('client_solutions.title')}</h2>
-                <p style={{ marginBottom: '1rem' }}>{t('client_solutions.description')}</p>
-                <ul className={styles.projectFeatures}>
-                    <li>{t.rich('client_solutions.offerings.website', {
-                        b: (chunks) => <b className="">{chunks}</b>
-                    })}</li>
-                    <li>{t.rich('client_solutions.offerings.software', {
-                        b: (chunks) => <b className="">{chunks}</b>
-                    })}</li>
-                </ul>
 
-                <div className={styles.clientSolutions}>
-
-                    <div className={styles.clientSolution}>
-                        <Image src={chivasLogo} alt="Chivas Logo" />
-                        <div className={styles.description}>{t.rich('client_solutions.projects.0.description', {
-                            p: (chunks) => <p>{chunks}</p>,
-                            li: (chunks) => < li className={styles.projectFeatures}>{chunks}</li>,
-                            ul: (chunks) => <ul className={styles.projectFeatures}>{chunks}</ul>
-                        })}</div>
-                        <Image style={{ maxWidth: '100%', height: 'auto' }} src={chivasWebsiteImages} alt="Images of TuryChivas website"></Image>
-                    </div>
-
-                </div>
-            </div>
         </>
     );
 }

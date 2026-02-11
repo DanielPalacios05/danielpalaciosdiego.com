@@ -4,8 +4,9 @@
         "description": "Portfolio and Personal Site"
     },
     "Metadata": {
-        "title": "Daniel Palacios | Full-Stack Software Engineer",
-        "description": "I am a bilingual Full-Stack Engineer who builds fast, scalable systems from UX to production. I've delivered measurable impact such as 50% faster load times and reducing project delivery from 6 to 3 months—by building across frontend, backend, and modern development workflows."
+        "title": "Daniel Palacios | Full-Stack Software Engineer & UX/UI Designer",
+        "description": "Daniel Palacios is a bilingual Full-Stack Engineer who builds fast, scalable systems from UX to production. He has delivered measurable impact such as 50% faster load times and reducing project delivery from 6 to 3 months—by building across frontend, backend, and modern development workflows.",
+        "keywords": "Daniel Palacios, Full-Stack Engineer, Software Engineer, UX/UI Designer, React, Next.js, Portfolio, Web Development, Frontend, Backend"
     },
     "Navigation": {
         "home": "Home",
@@ -21,7 +22,7 @@
         "quote": "My purpose is to transform the world through education and technology.",
         "bio": "I am a bilingual Full-Stack Engineer who builds fast, scalable systems from UX to production. I've delivered measurable impact such as 50% faster load times and reducing project delivery from 6 to 3 months—by building across frontend, backend, and modern development workflows. I am known for my product ownership, clear communication, leadership, and problem-solving in complex domains, always striving for excellence.\n\nI am passionate about creating innovative, disruptive technology and the intersection of Human-Computer Interaction (HCI), AR/VR, and Applied AI.",
         "downloadCv": "Download CV",
-        "workTogether": "Let's work together"
+        "workTogether": "Let's get in touch"
     },
     "Footer": {
         "rights": "All rights reserved"
@@ -38,8 +39,8 @@
         "title": "Education",
         "eafit": {
             "title": "Computer Science Major with Minor in Software Development",
-            "scholarship": "Awardee of Generacion E Scholarship for outstanding results in nation wide standardized exam",
-            "optika": "Award winning project Optika",
+            "scholarship": "Recipient of the fully funded Generación E Scholarship for outstanding performance in a national standardized exam",
+            "optika": "Award winning project <optika>Optika</optika>",
             "representative": "Computer science student representative",
             "afroeafit": "Founder of EAFIT Black collective AFROEAFIT",
             "gpa": "4.4/5 GPA"
@@ -67,6 +68,7 @@
     "Work": {
         "job_experience": {
             "title": "Job Experience",
+            "swipe_sign": "Swipe to explore the timeline",
             "experiences": {
                 "eafit": {
                     "title": "EAFIT",

@@ -39,6 +39,7 @@ export async function generateMetadata({
             default: t('title')
         },
         description: t('description'),
+        keywords: t('keywords'),
         openGraph: {
             title: t('title'),
             description: t('description'),
@@ -102,6 +103,22 @@ export default async function LocaleLayout({
                 <link rel="manifest" href="/site.webmanifest" />
             </head>
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            '@context': 'https://schema.org',
+                            '@type': 'Person',
+                            name: 'Daniel Palacios',
+                            url: 'https://danielpalaciosdiego.com',
+                            jobTitle: 'Full-Stack Software Engineer and UX/UI Designer',
+                            sameAs: [
+                                'https://github.com/DanielPalacios05',
+                                'https://www.linkedin.com/in/danielpalaciosdiego/'
+                            ]
+                        })
+                    }}
+                />
                 <NextIntlClientProvider>
                     <Header />
                     <main>

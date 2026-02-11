@@ -42,7 +42,9 @@ export default function Education() {
 
                     <ul>
                         <li>{t('eafit.scholarship')}</li>
-                        <li>{t('eafit.optika')}</li>
+                        <li>{t.rich('eafit.optika', {   
+                            optika: (chunks) => <a href="#optika" className="main-underline"><span className="">{chunks}<Image src={link} alt="link" /></span> </a>
+                        })}</li>
                         <li>{t('eafit.representative')}</li>
                         <li>{t('eafit.afroeafit')}</li>
                         <li>{t('eafit.gpa')}</li>

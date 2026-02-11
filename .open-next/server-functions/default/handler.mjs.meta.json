@@ -4130,7 +4130,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/ssr/app_b9b1292a._.js": {
-      "bytes": 217,
+      "bytes": 215,
       "imports": [],
       "format": "cjs"
     },
@@ -4179,6 +4179,11 @@
           "original": "next/dist/shared/lib/no-fallback-error.external.js"
         }
       ],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a14fbce8._.js": {
+      "bytes": 6009,
+      "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a457c799._.js": {
@@ -4300,11 +4305,6 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__dfd34b66._.js": {
-      "bytes": 4779,
-      "imports": [],
-      "format": "cjs"
-    },
     ".open-next/server-functions/default/.next/server/chunks/ssr/_3a987daf._.js": {
       "bytes": 17683,
       "imports": [
@@ -4337,12 +4337,12 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/ssr/messages_en_json_a7997480._.js": {
-      "bytes": 6812,
+      "bytes": 7172,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/ssr/messages_es_json_dfd9a03c._.js": {
-      "bytes": 7625,
+      "bytes": 8005,
       "imports": [],
       "format": "cjs"
     },
@@ -4536,7 +4536,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/[root-of-the-server]__9c498023._.js": {
-      "bytes": 187669,
+      "bytes": 173209,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.prod.js",
@@ -4655,6 +4655,11 @@
           "original": "/home/blackpalace/hyland/danielpalacios.com/danielpalacios/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__30a39925._.js"
         },
         {
+          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a14fbce8._.js",
+          "kind": "require-call",
+          "original": "/home/blackpalace/hyland/danielpalacios.com/danielpalacios/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a14fbce8._.js"
+        },
+        {
           "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a457c799._.js",
           "kind": "require-call",
           "original": "/home/blackpalace/hyland/danielpalacios.com/danielpalacios/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a457c799._.js"
@@ -4673,11 +4678,6 @@
           "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__d7454cfd._.js",
           "kind": "require-call",
           "original": "/home/blackpalace/hyland/danielpalacios.com/danielpalacios/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__d7454cfd._.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__dfd34b66._.js",
-          "kind": "require-call",
-          "original": "/home/blackpalace/hyland/danielpalacios.com/danielpalacios/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__dfd34b66._.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/ssr/_3a987daf._.js",
@@ -4881,6 +4881,11 @@
           "original": "/home/blackpalace/hyland/danielpalacios.com/danielpalacios/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__30a39925._.js"
         },
         {
+          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a14fbce8._.js",
+          "kind": "require-call",
+          "original": "/home/blackpalace/hyland/danielpalacios.com/danielpalacios/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a14fbce8._.js"
+        },
+        {
           "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a457c799._.js",
           "kind": "require-call",
           "original": "/home/blackpalace/hyland/danielpalacios.com/danielpalacios/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a457c799._.js"
@@ -4899,11 +4904,6 @@
           "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__d7454cfd._.js",
           "kind": "require-call",
           "original": "/home/blackpalace/hyland/danielpalacios.com/danielpalacios/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__d7454cfd._.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__dfd34b66._.js",
-          "kind": "require-call",
-          "original": "/home/blackpalace/hyland/danielpalacios.com/danielpalacios/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__dfd34b66._.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/ssr/_3a987daf._.js",
@@ -7587,7 +7587,7 @@
           "bytesInOutput": 272
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/app_b9b1292a._.js": {
-          "bytesInOutput": 322
+          "bytesInOutput": 320
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/node_modules_53db6af9._.js": {
           "bytesInOutput": 772
@@ -7610,6 +7610,9 @@
         ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__30a39925._.js": {
           "bytesInOutput": 495
         },
+        ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a14fbce8._.js": {
+          "bytesInOutput": 6188
+        },
         ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__a457c799._.js": {
           "bytesInOutput": 2369
         },
@@ -7621,9 +7624,6 @@
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__d7454cfd._.js": {
           "bytesInOutput": 1723
-        },
-        ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__dfd34b66._.js": {
-          "bytesInOutput": 4932
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/_3a987daf._.js": {
           "bytesInOutput": 17962
@@ -7641,10 +7641,10 @@
           "bytesInOutput": 392
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/messages_en_json_a7997480._.js": {
-          "bytesInOutput": 6966
+          "bytesInOutput": 7329
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/messages_es_json_dfd9a03c._.js": {
-          "bytesInOutput": 7969
+          "bytesInOutput": 8363
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/node_modules_84b16067._.js": {
           "bytesInOutput": 100721
@@ -7674,7 +7674,7 @@
           "bytesInOutput": 163931
         },
         ".open-next/server-functions/default/.next/server/chunks/[root-of-the-server]__9c498023._.js": {
-          "bytesInOutput": 193645
+          "bytesInOutput": 179185
         },
         ".open-next/server-functions/default/.next/server/chunks/_next-internal_server_app_favicon_ico_route_actions_353150a5.js": {
           "bytesInOutput": 273
@@ -7848,7 +7848,7 @@
           "bytesInOutput": 57822
         }
       },
-      "bytes": 2976610
+      "bytes": 2964161
     }
   }
 }

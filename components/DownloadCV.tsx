@@ -61,7 +61,7 @@ export default function DownloadCV() {
                         className={styles.option}
                         onClick={() => setIsOpen(false)}
                     >
-                        Spanish
+                        Español
                     </a>
                 </div>
             )}

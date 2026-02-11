@@ -11,6 +11,8 @@ import collage from "@/public/images/collage.jpg"
 import clsx from "clsx";
 import formacion from "@/public/images/formacion.png"
 import mcac from "@/public/images/mcac.png"
+import clock from "@/public/clock.svg"
+import arrow from "@/public/arrow.svg"
 
 export default function JobExperience() {
 
@@ -25,6 +27,15 @@ export default function JobExperience() {
 
     return (
         <div className={styles.jobExperienceContainer}>
+
+            <div className={styles.swipeSign}>
+                <div className={styles.swipeSignIcon}>
+                    <Image src={arrow} alt="Arrow Icon" />
+                    <Image src={clock} alt="Clock Icon" />
+                    <Image id={styles.arrow2} src={arrow} alt="Arrow Icon" />
+                </div>
+                {t("swipe_sign")}
+            </div>
 
 
 

@@ -48,7 +48,7 @@
     gap: 0.4rem;
     font-family: var(--font-body);
     font-style: italic;
-    font-size: clamp(1rem, 3vw, 1.3rem);
+    font-size: clamp(1rem, 5vw, 1.3rem);
     position: relative;
 }
 

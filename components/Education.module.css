@@ -55,6 +55,8 @@
 
  .section a img {
     margin-left: 0.5rem;
+    width: clamp(0.7em, 4vw, 0.8em);
+    height: clamp(0.7em, 4vw, 0.8em);
 }
 
 .certs {
